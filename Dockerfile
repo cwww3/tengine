@@ -38,7 +38,7 @@ ENV CONFIG "\
         --with-http_stub_status_module \
         --with-http_auth_request_module \
         --with-http_xslt_module=dynamic \
-        --with-http_image_filter_module=dynamic \
+        --with-http_image_filter_module \
         --with-http_geoip_module=dynamic \
         --with-threads \
         --with-stream \
