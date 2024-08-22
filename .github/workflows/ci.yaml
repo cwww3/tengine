@@ -1,5 +1,9 @@
 name: Build Image
-on: push
+on: 
+  issues:
+    types:
+      - opened
+      - labeled
 
 jobs:
   docker:
